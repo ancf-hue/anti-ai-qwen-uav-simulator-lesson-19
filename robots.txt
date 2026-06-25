@@ -1,0 +1,18 @@
+# robots.txt для Anti-AI Qwen UAV Simulator — Урок 19: Кинооператор
+# https://anti-ai-qwen-uav-simulator-lesson-1-murex.vercel.app/
+
+# Разрешить всем поисковым роботам индексировать сайт
+User-agent: *
+Allow: /
+
+# Запретить индексацию служебных файлов
+Disallow: /favicon.ico
+Disallow: /*.mp3$
+Disallow: /*.js$
+Disallow: /*.json$
+
+# Указать путь к карте сайта
+Sitemap: https://anti-ai-qwen-uav-simulator-lesson-1-murex.vercel.app/sitemap.xml
+
+# Хост (для Яндекса)
+Host: anti-ai-qwen-uav-simulator-lesson-1-murex.vercel.app
